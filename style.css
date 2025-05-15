@@ -1,0 +1,26 @@
+.image{
+    height:300px;
+    background-position:center;
+    background-size:cover;
+    background-position-y: top;
+}
+
+
+.me{
+    background-image: url("assets/me.png")
+}
+
+
+.music_database{
+    background-image: url("assets/music_database.png");
+}
+
+
+.pokedex{
+    background-image: url("assets/pokedex.png");
+}
+
+
+.travel_city{
+    background-image: url("assets/travel_city.png");
+}
