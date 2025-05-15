@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jaro:opsz@6..72&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rye&display=swap');
+
 .image{
     height:300px;
     background-position:center;
@@ -24,3 +26,10 @@
 .travel_city{
     background-image: url("assets/travel_city.png");
 }
+
+
+.rye {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
