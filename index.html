@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav">
+
+    <div id="start"></div>
+    <div id="nav">
         <div class="nav_child">
-            <a href="#me">Me</a>
+            <a href="#start">Me</a>
         </div>
         <div class="nav_child">
             <a href="#projects">Projects</a>
@@ -71,12 +73,35 @@
         </div>
 
 
-
-
-
-
     <h2 id="contact" class="rye">Contact</h2>
-        <p>Message me at cohlldickerson@icloud.com</p>
+        <form class="form rye" action="">
+            
+            <div class="form_child">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="What is your name?">
+            </div>
+            
+            <div class="form_child">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="What is your email?">
+            </div>
+
+            <div class="form_child">
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="Write here.">
+            </div>
+
+
+            <div class="buttons">
+                <input type="reset">
+
+                <input type="submit">
+            </div>
+
+        </form>
+
+        <div class="footer">Cohl Dickerson</div>
+
     <script src="script.js"></script>
 </body>
 </html>
