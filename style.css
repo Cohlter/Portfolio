@@ -39,20 +39,39 @@ p{
 }
 
 .nav{
-    height:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height:70px;
     width: 100%;
     position:sticky;
     top:0;
+    background-color:black;
+}
+
+.nav_child{
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+.nav_child a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav_child a:hover {
+    color:white;
+    text-decoration: underline;
 }
 
 
 #me{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/me.png");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,1)), url("assets/me.png");
     height:300px;
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-bottom:30px;
 }
 
 .about{
@@ -60,19 +79,19 @@ p{
     flex-direction:row;
     justify-content:space-evenly;
     background-color:black;
-    
-    margin:0 8px;
-    border-style:solid;
-    border-width:8px;
-    border-radius:20px;
 }
 
 .about_child{
     width:40%;
-    background-color:rgba(63, 40, 9, 0.685);
     padding:15px;
     border-radius:10px;
     color:white;
+}
+
+
+.project{
+    display:flex;
+    margin-bottom:20px;
 }
 
 
@@ -80,27 +99,86 @@ p{
     border-style:solid;
     border-width:8px;
     border-radius:20px;
-    height:772px;
-    margin:0 8px;
+    margin:0 auto;
+    width:70%;
+    max-width:1398px;
+    aspect-ratio: 1398 / 767;;
 }
 
+.download{
+    display:none;
+    color:white;
+}
 
 .music_database{
-    background-image: url("assets/music_database.png");
+    background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)), url("assets/music_database.png");
 }
+
+    .music_database:hover {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("assets/music_database.png");
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+
+    .music_database:hover .info {
+        display:none;
+    }
+
+
+    .music_database:hover .download{
+        display:block;
+    }
 
 
 .pokedex{
-    background-image: url("assets/pokedex.png");
+    background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)),url("assets/pokedex.png");
 }
+
+
+    .pokedex:hover {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("assets/pokedex.png");
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+
+    .pokedex:hover .info {
+        display:none;
+    }
+
+
+    .pokedex:hover .download{
+        display:block;
+    }
 
 
 .travel_city{
-    background-image: url("assets/travel_city.png");
+    background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)),url("assets/travel_city.png");
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      /* background-color: lightblue; */
+
+    .travel_city:hover {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("assets/travel_city.png");
+        display:flex;
+        justify-content: center;
+        align-items:center;
     }
+
+
+    .travel_city:hover .info {
+        display:none;
+    }
+
+
+    .travel_city:hover .download{
+        display:block;
+    }
+
+@media only screen and (max-width: 600px) {
+    /* body {
+      /* background-color: lightblue;
+    } */
   }
