@@ -1,0 +1,68 @@
+h1{
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* text-shadow: 1px 1px 0px blue,
+    -1px -1px 0px blue,
+    1px -1px 0px blue,
+    -1px 1px 0px blue; */
+}
+
+
+p{
+    margin:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#pokemon_name{
+    /* display:inline; */
+    /* margin: auto; */
+    width:fit-content;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+    color:white;
+    background-color:lightcoral;
+}
+
+
+button{
+    /* display:inline; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+    color:black;
+    background-color:red;
+    width:fit-content;
+}
+
+
+#pokedex{
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    row-gap:5px;
+}
+
+
+#poke_ball{
+    width:200px;
+    height:200px;
+    /* image-rendering: pixelated; */
+    /* margin:auto; */
+    border: solid 20px black;
+    border-radius: 120px;
+    background-image: linear-gradient(red 50%, white 50%);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#search{
+    margin:20px auto;
+    display:flex;
+    justify-content: center;
+}

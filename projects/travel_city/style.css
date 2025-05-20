@@ -1,0 +1,291 @@
+@font-face{
+    font-family:proxima;
+    src:url("assets/ProximaNovaScOsfExtraCondensed.ttf")
+}
+
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+
+.gill{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.proxima{
+    font-family:proxima;
+}
+
+
+p{
+    margin:0;
+}
+
+
+#header1{
+    font-size:80px;
+    margin-top:30px;
+    margin-bottom:0px;
+}
+
+
+#header2{
+    font-size:60px;
+    text-align:center;
+    margin:5px;
+}
+
+
+#header3{
+    font-size:50px;
+}
+
+
+#header4{
+    font-size:30px;
+    margin-top:5px;
+    margin-bottom:0;
+}
+
+
+#wrapper{
+    width:80%;
+    margin: 0 auto;
+}
+
+
+#logo{
+    height:50px;
+    width:100px;
+}
+
+
+#menu{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:20px 0;
+}
+
+
+nav{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+a{
+    color:black;
+}
+
+
+#offers{
+    width:130px;
+    height:50px;
+    background-color:#ff9b9b;
+    border-radius:3px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#offers a{
+    color:white;
+}
+
+
+.banner{
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+}
+
+
+#index_banner{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/italy.jpg);
+    height:290px;
+}
+
+
+#tours_banner{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/tours-hero.jpg);
+    height:260px;
+}
+
+#contact_banner{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/airplane.jpg);
+    height:280px;
+}
+
+
+#banner_text{
+    text-wrap:wrap;
+    text-align:center;
+    margin:0;
+}
+
+
+#popular_header p{
+    text-align:center;
+    margin:25px;
+}
+
+
+#info{
+    display:flex;
+    column-gap:10%;
+}
+
+
+.sub_info{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:0px;
+}
+
+
+#location{
+    display:flex;
+}
+
+
+#tours{
+    display:flex;
+    flex-wrap:wrap;
+    row-gap:35px;
+    justify-content:space-around;
+    margin-top:50px;
+}
+
+
+#popular_tours{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    row-gap:35px;
+}
+
+
+.tour_card{
+    min-width:200px;
+    max-width:200px;
+    height:250px;
+    color:white;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    margin: 0 50px;
+}
+
+
+#italy{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/italy.jpg);
+}
+
+
+#china{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/china.jpg);
+}
+
+
+#egypt{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/egypt.jpg);
+}
+
+
+#sydney{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/sydney.jpg);
+}
+
+
+#tokyo{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/tokyo.jpg);
+}
+
+
+#new_york{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/new-york.jpg);
+}
+
+
+#aruba{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/aruba.jpg);
+}
+
+
+#sao_paulo{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/sao-paulo.jpg);
+}
+
+
+#cancun{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/cancun.jpg);
+}
+
+
+#seoul{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/seoul.jpg);
+}
+
+
+#tour_card_info{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+
+#us{
+    display:flex;
+    justify-content:space-around;
+    margin:40px 0;
+}
+
+
+.our{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    margin-bottom:30px;
+}
+
+
+#footer{
+    height:50px;
+    background-color:#ff9b9b;
+    margin-top:50px;
+}
+
+
+button{
+    background-color:#ff9b9b;
+    border-style: none;
+    border-radius:3px;
+    width:100px;
+    height:40px;
+    font-family:proxima;
+    color:white;
+    font-size:20px;
+    margin:30px;
+}
+
+
+iframe{
+    width:100%;
+    height:300px;
+    border:solid 3px black;
+}
