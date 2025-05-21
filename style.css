@@ -114,6 +114,21 @@ p{
     background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)), url("assets/music_database.png");
 }
 
+
+@media screen and (max-width: 1000px) and (min-width:601px){
+    .music_database {
+        background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,1), rgba(255,255,255,1),rgba(0,0,0,0),rgba(0,0,0,0)),url("assets/music_database.png");
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .music_database {
+        background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,1)),url("assets/music_database.png");
+    }
+}
+
+
     .music_database:hover {
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("assets/music_database.png");
         display:flex;
@@ -141,6 +156,20 @@ p{
 }
 
 
+@media screen and (max-width: 1000px) and (min-width:601px){
+    .pokedex {
+        background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,1), rgba(255,255,255,1),rgba(0,0,0,0),rgba(0,0,0,0)),url("assets/pokedex.png");
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .pokedex {
+        background-image: linear-gradient(to bottom,rgba(255,255,255,1),rgba(255,255,255,1)),url("assets/pokedex.png");
+    }
+}
+
+
     .pokedex:hover {
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("assets/pokedex.png");
         display:flex;
@@ -165,6 +194,20 @@ p{
 
 .travel_city{
     background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)),url("assets/travel_city.png");
+}
+
+
+@media screen and (max-width: 1000px) and (min-width:601px){
+    .travel_city {
+        background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,1), rgba(255,255,255,1),rgba(0,0,0,0),rgba(0,0,0,0)),url("assets/travel_city.png");
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .travel_city {
+        background-image: linear-gradient(to bottom,rgba(255,255,255,1), rgba(255,255,255,1)),url("assets/travel_city.png");
+    }
 }
 
 
@@ -209,6 +252,12 @@ input{
     margin:0 auto;
 }
 
+@media screen and (max-width:700px) {
+    input{
+        width:330px;
+    }
+}
+
 
 #message{
     height:150px;
@@ -220,6 +269,15 @@ input{
     column-gap:40px;
     width:700px;
     margin:0 auto;
+}
+
+@media screen and (max-width:700px) {
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        row-gap:20px;
+        width: 330px;
+    }
 }
 
 
@@ -237,8 +295,3 @@ input{
     margin-top:40px;
 }
 
-@media only screen and (max-width: 600px) {
-    /* body {
-      /* background-color: lightblue;
-    } */
-  }
